@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  background-color: #444;
+  color: #f8f8f8;
+  font: 20px Avenir;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  color: #333;
+  font: 20px Avenir;
+  margin-right: 5px;
+  outline: none;
+  padding-right: 5px;
+  text-align: right;
+  width: 50px;
+}
+
+input:focus {
+  box-shadow: 0 0 10px #369 inset;
+}
+
+input[disabled] {
+  opacity: 0.5;
+}
+
+.app-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.svg-container {
+  margin-top: 30px;
+  position: relative;
+}
+
+.seconds-left {
+  font-size: 36px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%;
+}
+
+.btn {
+  font-size: 16px;
+  width: 80px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+}
